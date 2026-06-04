@@ -3,37 +3,76 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MOSIQATI - Before</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>MOSIQATI - Home After</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-<header>
-  <img class="logo" src="assets/images/logo.jpg" alt="MOSIQATI logo">
-  <h1>متجر موسيقاتي</h1>
-  <nav>
-    <a href="index.html">الرئيسية</a>
-    <a href="store.html">المتجر</a>
-    <a href="gifts.html">الهدايا</a>
-    <a href="offers.html">العروض</a>
-    <a href="about.html">من نحن</a>
-    <a href="contact.html">تواصل معنا</a>
-  </nav>
+<div class="top-note">MOSIQATI Store • musical instruments • gifts • offers</div>
+<header class="navbar">
+  <div class="container navbar-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/images/logo.jpg" alt="MOSIQATI logo">
+      <span><strong>MOSIQATI</strong><br><small>Music Store</small></span>
+    </a>
+    <button class="btn light mobile-menu" type="button">Menu</button>
+    <nav class="links">
+      <a href="index.html">الرئيسية</a>
+      <a href="pages/store.html">المتجر</a>
+      <a href="pages/gifts.html">الهدايا</a>
+      <a href="pages/offers.html">العروض</a>
+      <a href="pages/about.html">من نحن</a>
+      <a href="pages/contact.html">تواصل معنا</a>
+      <a href="pages/test_plan.html">الاختبار</a>
+      <a href="pages/improvements.html">التحسينات</a>
+    </nav>
+  </div>
 </header>
 
+
 <main>
-<section class="hero">
-  <h2>أهلًا بك في موسيقاتي</h2>
-  <p>موقع أولي بسيط يعرض المتجر والمنتجات. هذه النسخة قبل التحسين وتحتاج إلى تنظيم أفضل وتجربة استخدام أوضح.</p>
-  <img src="assets/images/hero_store.jpg" alt="music store">
-  <a class="btn" href="store.html">اذهب إلى المتجر</a>
-</section>
-<section class="grid">
-  <div class="card"><h3>المتجر</h3><p>عرض آلات موسيقية متنوعة.</p></div>
-  <div class="card"><h3>الهدايا</h3><p>أفكار هدايا بسيطة.</p></div>
-  <div class="card"><h3>العروض</h3><p>خصومات موسمية.</p></div>
-</section>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-card">
+        <span class="kicker">After Improvement Version</span>
+        <h1>موسيقاتي بتصميم متجر حديث وصور حقيقية</h1>
+        <p>هذه النسخة المحسنة تستخدم الشعار الجديد والصور المرسلة داخل واجهة متجر منظمة، مع تنقل واضح، وسائط صوتية، صفحات متعددة، وخطة اختبار تناسب متطلبات المهمة.</p>
+        <div class="actions">
+          <a class="btn" href="pages/store.html">تصفح المتجر</a>
+          <a class="btn secondary" href="pages/improvements.html">شاهد التحسينات</a>
+        </div>
+        <div class="stats">
+          <div class="stat"><strong>6+</strong><span>صفحات رئيسية</span></div>
+          <div class="stat"><strong>10</strong><span>صور مضافة</span></div>
+          <div class="stat"><strong>3</strong><span>اختبارات رئيسية</span></div>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img src="assets/images/hero_store.jpg" alt="music instruments">
+        <div class="floating"><strong>تجربة محسنة</strong><br><span>واجهة أوضح  + صور أفضل + تفاعل أكثر</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div><h2>أقسام الموقع</h2><p>تم ترتيب الصفحات حسب متطلبات متجر موسيقاتي حتى ينتقل المستخدم بسهولة بين المنتجات والهدايا والعروض والتواصل.</p></div>
+      </div>
+      <div class="grid-3">
+        <article class="card"><img src="assets/images/oud_product.jpg" alt="oud"><div class="card-body"><h3>المتجر</h3><p>بطاقات منتجات مع أسعار وصور وعينات صوتية.</p><a class="btn light" href="pages/store.html">افتح</a></div></article>
+        <article class="card"><img src="assets/images/guitar_prduct.jpg" alt="gift"><div class="card-body"><h3>الهدايا</h3><p>أفكار هدايا موسيقية للطلاب والهواة.</p><a class="btn light" href="pages/gifts.html">افتح</a></div></article>
+        <article class="card"><img src="assets/images/offer_banner.jpg" alt="offers"><div class="card-body"><h3>العروض</h3><p>باقات وخصومات واضحة بطريقة احترافية.</p><a class="btn light" href="pages/offers.html">افتح</a></div></article>
+      </div>
+    </div>
+  </section>
 </main>
-<footer>© 2026 MOSIQATI</footer>
+
+<footer class="footer">
+  <div class="container">
+    <p>© 2026 MOSIQATI Music Store - Rahma Website Package</p>
+  </div>
+</footer>
+<script src="assets/js/app.js"></script>
 </body>
 </html>
