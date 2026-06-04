@@ -3,33 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MOSIQATI - Store Before</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>MOSIQATI - Store</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
 
-<header>
-  <img class="logo" src="assets/images/logo.jpg" alt="MOSIQATI logo">
-  <h1>متجر موسيقاتي</h1>
-  <nav>
-    <a href="index.html">الرئيسية</a>
-    <a href="store.html">المتجر</a>
-    <a href="gifts.html">الهدايا</a>
-    <a href="offers.html">العروض</a>
-    <a href="about.html">من نحن</a>
-    <a href="contact.html">تواصل معنا</a>
-  </nav>
+<div class="top-note">MOSIQATI Store • musical instruments • gifts • offers</div>
+<header class="navbar">
+  <div class="container navbar-inner">
+    <a class="brand" href="../index.html">
+      <img src="../assets/images/logo.jpg" alt="MOSIQATI logo">
+      <span><strong>MOSIQATI</strong><br><small>Music Store</small></span>
+    </a>
+    <button class="btn light mobile-menu" type="button">Menu</button>
+    <nav class="links">
+      <a href="../index.html">الرئيسية</a>
+      <a href="../pages/store.html">المتجر</a>
+      <a href="../pages/gifts.html">الهدايا</a>
+      <a href="../pages/offers.html">العروض</a>
+      <a href="../pages/about.html">من نحن</a>
+      <a href="../pages/contact.html">تواصل معنا</a>
+      <a href="../pages/test_plan.html">الاختبار</a>
+      <a href="../pages/improvements.html">التحسينات</a>
+    </nav>
+  </div>
 </header>
 
-<main>
-<section class="hero"><h2>المتجر</h2><p>منتجات موسيقية مختلفة.</p></section>
-<section class="grid">
-  <div class="card"><img src="assets/images/oud_product.jpg"><h3>عود</h3><p>آلة وترية شرقية.</p><strong>120 JD</strong></div>
-  <div class="card"><img src="assets/images/guitar_product.jpg"><h3>جيتار</h3><p>آلة مناسبة للتعلم.</p><strong>90 JD</strong></div>
-  <div class="card"><img src="assets/images/piano_product.jpg"><h3>بيانو</h3><p>للتدريب والعزف.</p><strong>250 JD</strong></div>
-  <div class="card"><img src="assets/images/drums_product.jpg"><h3>درمز</h3><p>آلة إيقاعية.</p><strong>180 JD</strong></div>
-</section>
+
+<main class="section">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <h2>المتجر</h2>
+        <p>تم تحسين صفحة المتجر بإضافة فلترة حسب نوع المنتج، صور حقيقية، سلة تجريبية، وعينات صوتية.</p>
+      </div>
+      <div class="cart-pill">Cart: <span data-cart>0</span></div>
+    </div>
+    <div class="toolbar">
+      <button class="filter-btn active" data-filter="all">الكل</button>
+      <button class="filter-btn" data-filter="string">وترية</button>
+      <button class="filter-btn" data-filter="keys">مفاتيح</button>
+      <button class="filter-btn" data-filter="percussion">إيقاعية</button>
+      <button class="filter-btn" data-filter="studio">استوديو</button>
+    </div>
+    <div class="grid-3">
+      <article class="card" data-category="string"><img src="../assets/images/oud_product.jpg"><div class="card-body"><span class="tag">وترية</span><h3>عود شرقي</h3><p>آلة مناسبة لمحبي الموسيقى العربية.</p><div class="price">120 JD</div><button class="btn" data-add-cart>أضف للسلة</button><audio controls><source src="../assets/audio/oud_sample.wav" type="audio/wav"></audio></div></article>
+      <article class="card" data-category="string"><img src="../assets/images/guitar_prduct.jpg"><div class="card-body"><span class="tag">وترية</span><h3>جيتار كلاسيكي</h3><p>مناسب للتدريب والعروض المدرسية.</p><div class="price">95 JD</div><button class="btn" data-add-cart>أضف للسلة</button><audio controls><source src="../assets/audio/guitar_sample.wav" type="audio/wav"></audio></div></article>
+      <article class="card" data-category="keys"><img src="../assets/images/piano_product.jpg"><div class="card-body"><span class="tag">مفاتيح</span><h3>بيانو تعليمي</h3><p>خيار واضح للطلاب والمبتدئين.</p><div class="price">250 JD</div><button class="btn" data-add-cart>أضف للسلة</button><audio controls><source src="../assets/audio/piano_sample.wav" type="audio/wav"></audio></div></article>
+      <article class="card" data-category="percussion"><img src="../assets/images/drums_product.jpg"><div class="card-body"><span class="tag">إيقاعية</span><h3>درمز وطبول</h3><p>للتدريب على الإيقاع والعزف الجماعي.</p><div class="price">180 JD</div><button class="btn" data-add-cart>أضف للسلة</button><audio controls><source src="../assets/audio/drums_sample.wav" type="audio/wav"></audio></div></article>
+      <article class="card" data-category="string"><img src="../assets/images/violin_product.jpg"><div class="card-body"><span class="tag">وترية</span><h3>كمان</h3><p>آلة كلاسيكية مناسبة للدروس والعروض.</p><div class="price">140 JD</div><button class="btn" data-add-cart>أضف للسلة</button><audio controls><source src="../assets/audio/violin_sample.wav" type="audio/wav"></audio></div></article>
+      <article class="card" data-category="studio"><img src="../assets/images/studio_gear.jpg"><div class="card-body"><span class="tag">استوديو</span><h3>معدات تسجيل</h3><p>ميكروفون وإكسسوارات للاستوديو المنزلي.</p><div class="price">75 JD</div><button class="btn" data-add-cart>أضف للسلة</button><audio controls><source src="../assets/audio/welcome_sample.wav" type="audio/wav"></audio></div></article>
+    </div>
+  </div>
 </main>
-<footer>© 2026 MOSIQATI</footer>
+
+<footer class="footer">
+  <div class="container">
+    <p>© 2026 MOSIQATI Music Store - Rahma Website Package</p>
+  </div>
+</footer>
+<script src="../assets/js/app.js"></script>
 </body>
 </html>

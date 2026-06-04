@@ -1,0 +1,5 @@
+Image and media notes:
+- logo.jpg: user-provided MOSIQATI logo.
+- product and page images: user-provided images from uploaded WhatsApp ZIP.
+- audio samples: simple generated WAV tones for testing HTML audio controls.
+- all folder and file names are in English only.

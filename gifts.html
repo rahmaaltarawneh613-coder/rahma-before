@@ -3,31 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MOSIQATI - Gifts Before</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>MOSIQATI - Gifts</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
 
-<header>
-  <img class="logo" src="assets/images/logo.jpg" alt="MOSIQATI logo">
-  <h1>متجر موسيقاتي</h1>
-  <nav>
-    <a href="index.html">الرئيسية</a>
-    <a href="store.html">المتجر</a>
-    <a href="gifts.html">الهدايا</a>
-    <a href="offers.html">العروض</a>
-    <a href="about.html">من نحن</a>
-    <a href="contact.html">تواصل معنا</a>
-  </nav>
+<div class="top-note">MOSIQATI Store • musical instruments • gifts • offers</div>
+<header class="navbar">
+  <div class="container navbar-inner">
+    <a class="brand" href="../index.html">
+      <img src="../assets/images/logo.jpg" alt="MOSIQATI logo">
+      <span><strong>MOSIQATI</strong><br><small>Music Store</small></span>
+    </a>
+    <button class="btn light mobile-menu" type="button">Menu</button>
+    <nav class="links">
+      <a href="../index.html">الرئيسية</a>
+      <a href="../pages/store.html">المتجر</a>
+      <a href="../pages/gifts.html">الهدايا</a>
+      <a href="../pages/offers.html">العروض</a>
+      <a href="../pages/about.html">من نحن</a>
+      <a href="../pages/contact.html">تواصل معنا</a>
+      <a href="../pages/test_plan.html">الاختبار</a>
+      <a href="../pages/improvements.html">التحسينات</a>
+    </nav>
+  </div>
 </header>
 
-<main>
-<section class="hero"><h2>الهدايا</h2><p>منتجات يمكن تقديمها كهدايا.</p></section>
-<section class="grid">
-  <div class="card"><img src="assets/images/guitar_product.jpg"><h3>كوبون هدية</h3><p>قسيمة شراء من المتجر.</p></div>
-  <div class="card"><img src="assets/images/violin_product.jpg"><h3>مجموعة تعليمية</h3><p>هدية مناسبة للطلاب.</p></div>
-</section>
+
+<main class="section">
+  <div class="container">
+    <div class="section-head"><div><h2>الهدايا</h2><p>قسم مخصص للمنتجات المناسبة للهدايا مثل الكوبونات، الإكسسوارات، والباقات التعليمية.</p></div></div>
+    <div class="grid-3">
+      <article class="card"><img src="../assets/images/guitar_prduct.jpg"><div class="card-body"><span class="tag">هدية</span><h3>guitar Card</h3><p>قسيمة شراء مناسبة لمن يريد اختيار الهدية لاحقًا.</p><div class="price">25 JD</div></div></article>
+      <article class="card"><img src="../assets/images/violin_product.jpg"><div class="card-body"><span class="tag">تعليم</span><h3>Student Music Pack</h3><p>باقة تعليمية لطالب جديد في عالم الموسيقى.</p><div class="price">35 JD</div></div></article>
+      <article class="card"><img src="../assets/images/team_music.jpg"><div class="card-body"><span class="tag">إكسسوارات</span><h3>Accessories Box</h3><p>مجموعة أوتار وحقيبة صغيرة ومنظف آلة.</p><div class="price">18 JD</div></div></article>
+    </div>
+  </div>
 </main>
-<footer>© 2026 MOSIQATI</footer>
+
+<footer class="footer">
+  <div class="container">
+    <p>© 2026 MOSIQATI Music Store - Rahma Website Package</p>
+  </div>
+</footer>
+<script src="../assets/js/app.js"></script>
 </body>
 </html>
